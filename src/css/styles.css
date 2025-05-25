@@ -25,10 +25,6 @@ body {
   animation: rotation 1s linear infinite;
 }
 
-.is-hidden {
-  display: none;
-}
-
 @keyframes rotation {
   0% {
     transform: rotate(0deg);
@@ -59,7 +55,7 @@ body {
 
 .form button {
   padding: 10px 20px;
-  background-color: #4caf50;
+  background-color: #4e75ff;
   color: white;
   border: none;
   border-radius: 0 4px 4px 0;
@@ -68,7 +64,7 @@ body {
 }
 
 .form button:hover {
-  background-color: #45a049;
+  background-color: #3d5fff;
 }
 
 .gallery {
@@ -140,6 +136,9 @@ body {
   transform: translateY(1px);
 }
 
+.is-hidden {
+  display: none;
+}
 /* Респонсивність для мобільних пристроїв */
 @media (max-width: 768px) {
   .gallery {
